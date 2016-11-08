@@ -1,0 +1,53 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5rem;
+  background-color: black;
+  float: left;
+  text-align: center;
+}
+
+.col {
+  background-color: #f2f2f2;
+  display: inline-block;
+  width: 25%;
+  margin: 0;
+  float: left;
+}
+div {
+  display: inline-block;
+}
+
+h1{
+  text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #e2e2e2;
+}
+
+img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+.btn {
+  padding: 1.5rem;
+}
