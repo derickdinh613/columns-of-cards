@@ -1,23 +1,16 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
-  }
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 a {
   padding: 1.5rem;
   float: left;
   text-align: center;
-}
-
-.btn {
-  text-decoration: none;
-  background-color: #333;
-  color: #fff;
 }
 
 .col {
@@ -28,22 +21,36 @@ a {
   float: left;
   padding: 1.5rem;
 }
+
 div {
   display: inline-block;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 2rem;
 }
 
 h2 {
-  line-height: 1.5;
+  font-size: .875rem;
+  font-weight: bold;
+  margin: 0 auto 1.5rem;
 }
 
 h3 {
   font-size: .875rem;
-  line-height: 1.5;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0;
+}
+
+.btn {
+  padding: .75rem;
+  border-radius: 6px;
+  background-color: #333;
+  text-decoration: none;
+  color: #fff;
+  font-size: .875rem;
 }
 
 .btn:hover {
@@ -54,11 +61,6 @@ img {
   width: 100px;
   margin: 0 auto 1.5rem;
   display: block;
-}
-
-.btn {
-  padding: .75rem;
-  border-radius: 6px;
 }
 
 .column-1 {
@@ -83,4 +85,13 @@ img {
 
 p {
   line-height: 1.5;
+}
+
+.btn-small {
+  text-decoration: none;
+  padding: .75rem;
+}
+
+body {
+  margin: 0;
 }
