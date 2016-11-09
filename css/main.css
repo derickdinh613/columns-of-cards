@@ -1,7 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
-  html {
-    box-sizing: border-box;
+  box-sizing: border-box;
   }
 
   *, *::before, *::after {
@@ -10,12 +9,15 @@ html {
 }
 
 a {
-  text-decoration: none;
-  color: #fff;
   padding: 1.5rem;
-  background-color: black;
   float: left;
   text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
 }
 
 .col {
@@ -24,6 +26,7 @@ a {
   width: 25%;
   margin: 0;
   float: left;
+  padding: 1.5rem;
 }
 div {
   display: inline-block;
@@ -35,7 +38,12 @@ h1{
 }
 
 h2 {
+  line-height: 1.5;
+}
+
+h3 {
   font-size: .875rem;
+  line-height: 1.5;
 }
 
 .btn:hover {
@@ -49,5 +57,30 @@ img {
 }
 
 .btn {
-  padding: 1.5rem;
+  padding: .75rem;
+  border-radius: 6px;
+}
+
+.column-1 {
+  border-left: solid #000 1px;
+  background-color: #e2e2e2;
+}
+
+.column-2 {
+  background-color: #ccc;
+  border-left: solid #000 1px;
+}
+
+.column-3 {
+  background-color: #aaa;
+  border-left: solid #000 1px;
+}
+
+.column-4 {
+  background-color: #999;
+  border-left: solid #000 1px;
+}
+
+p {
+  line-height: 1.5;
 }
